@@ -1,0 +1,113 @@
+[7.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9e509c3100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9e509c2ad0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9e509c2ad0>>)
+[7.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.208s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yogoe/work_ws/src'
+[7.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extensions ['ignore', 'ignore_ament_install']
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extension 'ignore'
+[7.222s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extension 'ignore_ament_install'
+[7.223s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extensions ['colcon_pkg']
+[7.223s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extension 'colcon_pkg'
+[7.223s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extensions ['colcon_meta']
+[7.223s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extension 'colcon_meta'
+[7.223s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extensions ['ros']
+[7.223s] Level 1:colcon.colcon_core.package_identification:_identify(color_detector) by extension 'ros'
+[7.226s] DEBUG:colcon.colcon_core.package_identification:Package 'color_detector' with type 'ros.ament_python' and name 'color_detector'
+[7.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.890s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yogoe/ldlidar_ros2_ws/install
+[7.940s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[7.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.747s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'cmake_args' from command line to 'None'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'cmake_target' from command line to 'None'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'cmake_clean_first' from command line to 'False'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'cmake_force_configure' from command line to 'False'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'ament_cmake_args' from command line to 'None'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[8.748s] Level 5:colcon.colcon_core.verb:set package 'color_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.748s] DEBUG:colcon.colcon_core.verb:Building package 'color_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yogoe/work_ws/src/build/color_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yogoe/work_ws/src/install/color_detector', 'merge_install': False, 'path': '/home/yogoe/work_ws/src/color_detector', 'symlink_install': False, 'test_result_base': None}
+[8.768s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.789s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yogoe/work_ws/src/color_detector' with build type 'ament_python'
+[8.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('color_detector', 'ament_prefix_path')
+[9.399s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/hook/ament_prefix_path.ps1'
+[9.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/hook/ament_prefix_path.dsv'
+[9.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/hook/ament_prefix_path.sh'
+[9.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.473s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yogoe/work_ws/src/color_detector'
+[10.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yogoe/work_ws/src/color_detector': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/yogoe/work_ws/src/build/color_detector/prefix_override:/home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/color_detector build --build-base /home/yogoe/work_ws/src/build/color_detector/build install --record /home/yogoe/work_ws/src/build/color_detector/install.log --single-version-externally-managed
+[19.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yogoe/work_ws/src/color_detector' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/yogoe/work_ws/src/build/color_detector/prefix_override:/home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/color_detector build --build-base /home/yogoe/work_ws/src/build/color_detector/build install --record /home/yogoe/work_ws/src/build/color_detector/install.log --single-version-externally-managed
+[21.278s] Level 1:colcon.colcon_core.environment:checking '/home/yogoe/work_ws/src/install/color_detector' for CMake module files
+[21.279s] Level 1:colcon.colcon_core.environment:checking '/home/yogoe/work_ws/src/install/color_detector' for CMake config files
+[21.281s] Level 1:colcon.colcon_core.environment:checking '/home/yogoe/work_ws/src/install/color_detector/lib'
+[21.281s] Level 1:colcon.colcon_core.environment:checking '/home/yogoe/work_ws/src/install/color_detector/bin'
+[21.281s] Level 1:colcon.colcon_core.environment:checking '/home/yogoe/work_ws/src/install/color_detector/lib/pkgconfig/color_detector.pc'
+[21.282s] Level 1:colcon.colcon_core.environment:checking '/home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages'
+[21.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('color_detector', 'pythonpath')
+[21.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/hook/pythonpath.ps1'
+[21.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/hook/pythonpath.dsv'
+[21.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/hook/pythonpath.sh'
+[21.330s] Level 1:colcon.colcon_core.environment:checking '/home/yogoe/work_ws/src/install/color_detector/bin'
+[21.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(color_detector)
+[21.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/package.ps1'
+[21.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/package.dsv'
+[21.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/package.sh'
+[21.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/package.bash'
+[21.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/yogoe/work_ws/src/install/color_detector/share/color_detector/package.zsh'
+[21.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yogoe/work_ws/src/install/color_detector/share/colcon-core/packages/color_detector)
+[21.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.982s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.501s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.712s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yogoe/work_ws/src/install/local_setup.ps1'
+[24.791s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yogoe/work_ws/src/install/_local_setup_util_ps1.py'
+[24.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yogoe/work_ws/src/install/setup.ps1'
+[25.032s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yogoe/work_ws/src/install/local_setup.sh'
+[25.146s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yogoe/work_ws/src/install/_local_setup_util_sh.py'
+[25.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yogoe/work_ws/src/install/setup.sh'
+[25.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yogoe/work_ws/src/install/local_setup.bash'
+[25.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yogoe/work_ws/src/install/setup.bash'
+[25.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yogoe/work_ws/src/install/local_setup.zsh'
+[25.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yogoe/work_ws/src/install/setup.zsh'

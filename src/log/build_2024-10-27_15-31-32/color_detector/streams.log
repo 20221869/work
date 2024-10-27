@@ -1,0 +1,35 @@
+[10.571s] Invoking command in '/home/yogoe/work_ws/src/color_detector': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/yogoe/work_ws/src/build/color_detector/prefix_override:/home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/color_detector build --build-base /home/yogoe/work_ws/src/build/color_detector/build install --record /home/yogoe/work_ws/src/build/color_detector/install.log --single-version-externally-managed
+[10.957s] running egg_info
+[10.958s] creating ../build/color_detector/color_detector.egg-info
+[10.958s] writing ../build/color_detector/color_detector.egg-info/PKG-INFO
+[10.958s] writing dependency_links to ../build/color_detector/color_detector.egg-info/dependency_links.txt
+[10.958s] writing entry points to ../build/color_detector/color_detector.egg-info/entry_points.txt
+[10.959s] writing requirements to ../build/color_detector/color_detector.egg-info/requires.txt
+[10.959s] writing top-level names to ../build/color_detector/color_detector.egg-info/top_level.txt
+[10.959s] writing manifest file '../build/color_detector/color_detector.egg-info/SOURCES.txt'
+[10.960s] reading manifest file '../build/color_detector/color_detector.egg-info/SOURCES.txt'
+[10.962s] writing manifest file '../build/color_detector/color_detector.egg-info/SOURCES.txt'
+[10.962s] running build
+[10.962s] running build_py
+[10.962s] creating /home/yogoe/work_ws/src/build/color_detector/build
+[10.963s] creating /home/yogoe/work_ws/src/build/color_detector/build/lib
+[10.963s] creating /home/yogoe/work_ws/src/build/color_detector/build/lib/color_detector
+[10.963s] copying color_detector/__init__.py -> /home/yogoe/work_ws/src/build/color_detector/build/lib/color_detector
+[10.963s] running install
+[11.083s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.084s]   warnings.warn(
+[11.084s] running install_lib
+[11.086s] creating /home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages/color_detector
+[11.086s] copying /home/yogoe/work_ws/src/build/color_detector/build/lib/color_detector/__init__.py -> /home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages/color_detector
+[11.087s] byte-compiling /home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages/color_detector/__init__.py to __init__.cpython-310.pyc
+[11.087s] running install_data
+[11.088s] creating /home/yogoe/work_ws/src/install/color_detector/share/ament_index
+[11.088s] creating /home/yogoe/work_ws/src/install/color_detector/share/ament_index/resource_index
+[11.088s] creating /home/yogoe/work_ws/src/install/color_detector/share/ament_index/resource_index/packages
+[11.088s] copying resource/color_detector -> /home/yogoe/work_ws/src/install/color_detector/share/ament_index/resource_index/packages
+[11.089s] copying package.xml -> /home/yogoe/work_ws/src/install/color_detector/share/color_detector
+[11.089s] running install_egg_info
+[11.091s] Copying ../build/color_detector/color_detector.egg-info to /home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages/color_detector-0.0.0-py3.10.egg-info
+[11.092s] running install_scripts
+[11.123s] writing list of installed files to '/home/yogoe/work_ws/src/build/color_detector/install.log'
+[11.165s] Invoked command in '/home/yogoe/work_ws/src/color_detector' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/yogoe/work_ws/src/build/color_detector/prefix_override:/home/yogoe/work_ws/src/install/color_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/color_detector build --build-base /home/yogoe/work_ws/src/build/color_detector/build install --record /home/yogoe/work_ws/src/build/color_detector/install.log --single-version-externally-managed
